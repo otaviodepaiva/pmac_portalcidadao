@@ -1,4 +1,7 @@
 {
    "liveServer.settings.CustomBrowser": "microsoft-edge",
-   "liveServer.settings.NoBrowser": false
+   "liveServer.settings.NoBrowser": false,
+   "editor.wordWrap": "wordWrapColumn",
+   "editor.rulers": [90],
+   "editor.wordWrapColumn": 90
 }

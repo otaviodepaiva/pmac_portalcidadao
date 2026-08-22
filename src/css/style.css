@@ -3,12 +3,20 @@
    padding: 0;
    box-sizing: border-box;
 }
+div-navbar{
+   width: 100%;
+   height: 300px;
+   
+   display: block;
+   background-color: #275082;
+}
+
 header div img {
    width: 100%;
    height: auto;
    display: block;
    object-fit: cover;
-   border: 2px solid #000000;
+   /*border: 2px solid #000000;*/
 }
 .container {
    display: flex;
@@ -32,10 +40,10 @@ header div img {
 }*/
 .citizenservices {
    background-color: #e0f2fe;
-   width: 200px;
+   width: 150px;
    height: 150px;
    color: #000000;
-   margin: 15px;
+   margin: 5px;
    font-size: 22px;
    border-radius: 10px;
    border: 2px solid #9eb9df;
@@ -59,11 +67,11 @@ header div img {
 
    /* Mudança sutil de cor no fundo e borda ao passar o mouse */
    background-color: #bae6fd;
-   border-color: #60a5fa;
+   border-color: #0a71ee;
 }
 .items {
-   width: 120px;
-   height: 120px;
+   width: 100px;
+   height: 100px;
    border: 2px solid #000000;
    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
    font-size: 15px;
